@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image_zomato{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+.navbardiv{
+    display: flex;
+    align-items: center;
+}
+.top_section {
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-size: 100% ;
+    min-height: 60vh;
+}
+
+.navbardiv {
+    height: 60px;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+    gap: 20px;
+    font-size: large;
+}
+.divimage{
+    position: absolute;
+}
+.zomatologo{
+    position: relative;
+    height: 70px;
+    width: 310px;
+    margin: 30px;
+    top: 100px;
+    right: 80px;
+    bottom: 200px;
+    left: 550px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.h1{
+    position: relative;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    top: 100px;
+    right: 80px;
+    bottom: 200px;
+    left: 500px;
+    font-size: xx-large;
+
+}
