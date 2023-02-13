@@ -36,7 +36,7 @@
     height: 70px;
     width: 310px;
     margin: 30px;
-    top: 100px;
+    top: 70px;
     right: 80px;
     bottom: 200px;
     left: 550px;
@@ -51,10 +51,40 @@
     justify-content: center;
     text-align: center;
     margin: 30px;
-    top: 100px;
+    top: 30px;
     right: 80px;
     bottom: 200px;
     left: 500px;
     font-size: xx-large;
 
+}
+.input{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    margin-top: 290px;
+    
+    
+}
+.input_location,
+.input_restro{
+    gap: 10px;
+    border-radius: 0px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.input_location{
+    border-right: 2px solid #e0e0e0;
+    width: 10%;
+    
+}
+.input_restro{
+    width: 25%;
+    
+    
 }
